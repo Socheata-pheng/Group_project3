@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adoption Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      width: 100%;
+      height: 100vh;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.202), rgba(53, 53, 53, 0.447)),
+      url(stray\ dogs.webp);
+      background-size:cover;
+      background-position:center;
+      background-repeat: no-repeat;
+    }
+
+    .adoption-form {
+      background-color: rgb(237, 231, 220);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      border-radius: 8px;
+      width: 300px;
+    }
+
+    .adoption-form label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .adoption-form input,
+    .adoption-form select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    .adoption-form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    .adoption-form button {
+      background-color: rgba(82, 65, 4, 0.81);
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .adoption-form button:hover {
+      background-color: rgba(82, 65, 4, 0.81);
+    }
+  </style>
+</head>
+<body>
+<div class="adoption-form">
+  <h2>Adoption Form</h2>
+  <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Your Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="animal">Preferred Animal:</label>
+    <select id="animal" name="animal" required>
+      <option value="dog">Dog</option>
+      <option value="cat">Cat</option>
+    </select>
+    <label for="petPreference">Name of Pet You Wish to Adopt:</label>
+    <input type="text" name="petPreference" id="petPreference" required>
+
+    <label for="message">Additional Information:</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
