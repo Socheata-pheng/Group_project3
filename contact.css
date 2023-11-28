@@ -1,0 +1,279 @@
+*{
+    font-family: sans-serif;  
+    margin: 0;
+    transform: scale(1);
+}
+
+body {
+    width: 100%;
+    min-width: 70vh;
+    height: 100vh;   
+    text-align: center;
+    line-height: 250%;
+    
+}
+
+.banner{
+    top: 0;
+    width: 100%;
+    height: fit-content;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.202), rgba(53, 53, 53, 0.447)),url(https://www.goodnet.org/photos/620x0/39368_hd.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+button{
+    /* width: 40px; */
+    padding: 10px 45px 20px 45px;
+    text-align:  center;
+    font-size: 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid orangered;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-inline: 20px;
+    transform: translateY(-0.5%);
+
+}
+
+button:hover span{
+    width: 100%;
+    border: none;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.logo{
+    width: fit-content;
+    height: 50px;
+    padding-left: 0px;
+    margin-left: 20px;
+}
+
+.link {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    padding: 10%;
+    line-height: 250%;
+    margin: auto;
+}
+main, .kampot {
+    background-color: rgb(253, 247, 235);
+}
+
+main, .kampot, .phnompenh {
+    font-size: 1.25em;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 5vh 0 8vh 0;
+    height: fit-content;
+}
+
+.PP, .KP, .info {
+    font-size: smaller;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25vh;
+    object-fit: contain;
+    margin: 50px auto;
+}
+
+.navbar{
+    font-size: 18px;
+    width: 85%;
+    margin-left: 20px;
+    margin-right: 2px;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    margin-right: 4px;
+    margin-inline-end: auto;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.navbar ul li a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:rgb(127, 73, 73);
+    position: absolute;
+    left: 0;    
+    bottom: -10px;
+    transition:0.5s ;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+.phnompenh h1 {
+    color: orangered;
+}
+
+#SM {
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    margin: 30px 10px;
+    transition: transform 0.2s ease-in-out;
+
+}
+#SM:hover {
+    transform: scale(1.2);
+}
+span{
+    background: orangered;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+    margin-top: 100px;
+}
+
+input, textarea {
+    text-align: left;
+    border: 2px dotted orange;
+    margin: 3px;
+    width: 50vh;
+    height: 30px;
+    font-size: 1rem;
+    padding: 10px;
+    
+}
+textarea {
+    max-width: 50vh;
+    min-width: 50vh;
+    min-height: 30px;
+    height: 60px;
+}
+
+button[type="submit"] {
+    background-color: rgb(255, 123, 0);
+    width: 50vh;
+    height: fit-content;
+    color: aliceblue;
+    border: 1px solid orangered;
+    border-radius: 10px;
+
+}
+button img {
+    position: relative;
+    top: 8px  
+}
+button[type="submit"]:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    font-size: 15px;
+    text-align: center;
+}
+
+iframe {
+    width: 500px;
+    height: 500px;
+}
+#credit1, #credit2 {
+    color: white; 
+    opacity: 50%;
+    font-size: 12px;
+}
+#credit1 {
+    position: absolute;
+    top: 95vh;
+    left: 10px;
+}
+#credit2 {
+    position:absolute;
+    bottom: -2vh;
+    left: 10px;
+}
+#credit1 a, #credit2 a {
+    color: white;
+}
+#credit1 a:hover, #credit2 a:hover {
+    color:rgb(255, 123, 0);
+}
+
+hr {
+    border: 2px dashed rgb(255, 0, 0);
+    width: 70%;
+    width: 70%;
+    margin: auto;
+}
+
+#icon {
+    width: 35px;
+    height: max-content;
+
+}
+
+.info1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    width: 33vh;
+}
+
+.last {
+    background-image: url();
+    background-image: linear-gradient(rgba(255, 211, 211, 0.5), rgba(252, 231, 182, 0.5)),url(https://wallpapers.com/images/hd/cute-cat-fuqkmbcov67c1nif.webp);
+    background-repeat: repeat-x;
+    background-size: cover;
+    /* background-image: linear-gradient(rgba(59, 59, 59, 0.5), rgba(0, 13, 51, 0.5)),url(https://wallpapers.com/images/hd/black-animal-lying-cat-f2ovvd5g5sk8sa3m.webp); */
+    object-fit: contain;
+    background-position: center;
+    height: fit-content;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    line-height: 250%;
+    padding: 50px;
+    display: flex;
+}
+.last1, .last2 {
+    background-color: rgb(253, 247, 235, 0.6);
+    color: rgb(99, 0, 0);
+    border: 3px dashed orange;
+    border-radius: 5px;
+    padding: 25px;
+    font-size: smaller;
+    width: 100%; 
+}
+
