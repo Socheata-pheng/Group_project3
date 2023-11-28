@@ -136,6 +136,7 @@ button:hover span{
     line-height: 30px;
     font-weight: 20;
     margin-top: 30px;
+    
 }
 
 .p1 button{
@@ -254,7 +255,7 @@ button:hover span{
 .button3 span{
     background: rgba(82, 65, 4, 0.81);
     height: 100%;
-    width: 0;
+    width: 0;  
     border-radius: 25px;
     position: absolute;
     left: 0;
