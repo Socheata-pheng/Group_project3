@@ -14,6 +14,17 @@
         background-repeat: no-repeat;
         
 }
+#credit{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding-right: 0 5px;
+    width: fit-content;
+    background-color: gray;
+    opacity: 60%;
+    position: relative;
+    top: -25px;
+}
 
 .navbar{
     width: 85%;
@@ -25,7 +36,7 @@
     justify-content: space-between;
 }
 .logo{
-    width: 50px;
+    width: fit-content;
     height: 50px;
     cursor: pointer;
     padding-left: 0px;
@@ -87,7 +98,7 @@ button{
     font-weight: bold;
     border: 2px solid rgb(123, 98, 9);
     background: transparent;
-    color: white;
+    color: black;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -101,7 +112,7 @@ a{
 }
 
 span{
-    background: rgba(82, 65, 4, 0.81);
+    background: rgba(159, 107, 52, 0.912);
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -142,7 +153,6 @@ button:hover span{
     line-height: 30px;
     font-weight: 20;
     margin-top: 30px;
-    
 }
 
 .p1 button{
@@ -179,13 +189,26 @@ button:hover span{
     width: 100%;
     position: absolute;
     margin-top: 30px;
-
+background-size: cover;
+background-position: center;
     text-align: center;
     color: black;
     padding: 10px;
     font-size: 20px;
     background-color: rgb(237, 231, 220);
+    transform: translateY(-0.5%);
 }
+.button2{
+display: flex;
+justify-content: space-between;
+color: black;
+
+
+}
+.button2 a{
+    color: black;
+}
+
 
 .p2 h2{
     text-align: center;
@@ -233,7 +256,7 @@ button:hover span{
 
 }
 .button2 span{
-    background: rgba(82, 65, 4, 0.81);
+    background: rgba(211, 107, 9, 0.81);
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -243,6 +266,7 @@ button:hover span{
     z-index: -1;
     transition: 0.5s;
     margin-top: 100px;
+    
     /* margin-right: -100px; */
 }
 .button2 :hover span{
@@ -266,7 +290,7 @@ button:hover span{
 .button3 span{
     background: rgba(82, 65, 4, 0.81);
     height: 100%;
-    width: 0;  
+    width: 0;
     border-radius: 25px;
     position: absolute;
     left: 0;
@@ -311,6 +335,7 @@ main {
     font-family: sans-serif;  
     margin-top: 650px;
     line-height: 250%;
+    
 
 }
 
@@ -329,23 +354,30 @@ input, textarea {
     padding: 10px;
     
 }
+
 textarea {
     max-width: 50vh;
     min-width: 50vh;
-    min-height: 30px;
+    min-height: 100px;
+    height: 60px;
 }
 
-input[type="submit"] {
+button[type="submit"] {
     background-color: rgb(255, 123, 0);
     width: 50vh;
+    height: fit-content;
     color: aliceblue;
-    padding: 5px;
     border: 1px solid orangered;
     border-radius: 10px;
+    margin-top: 0;
 
 }
+button img{
+    position: relative;
+    top: 8px;
+}
 
-input[type="submit"]:hover {
+button[type="submit"]:hover {
     background-color: white;
     color: orangered;
     border: 1px solid orangered;
@@ -377,6 +409,70 @@ img{
     width: 50px;
     height: 50px;
     line-height: 250%;
+}
+
+
+.CSum, .div2 {
+    background-color: rgb(253, 247, 235);
+    font-size: 15px;
+    line-height: 200%;
+    width: cover;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.div1 {
+    width: 33%;
+    padding: 50px;
+    
+}
+#img1 {
+    width: 70px;
+    height: 70px;
+
+}
+
+.h1 {
+    line-height: 120%;
+}
+
+hr {
+    border: 2px dashed orangered;
+    width: 70%;
+    margin-left: 0;
+}
+
+h3 {
+    color: orangered;
+}
+
+.SM1 {
+    display: flex;
+    gap:30px;
+    padding: 0;
+    
+}
+
+#SM1 {
+    width: 50px;
+    height: max-content;
+}
+
+#icon {
+    width: 35px;
+    /* height: max-content; */
+
+}
+
+.info1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    width: 33vh;
 }
 
 
