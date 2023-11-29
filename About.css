@@ -1,11 +1,13 @@
 
 *{
     margin: 0;
-    padding: 0; 
+    /* transform: scale(1); */
     font-family: sans-serif;
-}body{
+
+}
+body{
     width: 100%;
-    height:90%;
+    height:fit-content;
 }
 .banner{
     width: 100%;
@@ -26,10 +28,11 @@
     justify-content: space-between;
 }
 .logo{
-    width: 50px;
+    width: fit-content;
+    height: 50px;
     cursor: pointer;
     padding-left: 0px;
-    margin-left: 4px;
+    margin-left: 20px;
 }
 .navbar ul li{
     list-style: none;
@@ -78,7 +81,7 @@
     text-align: center;
     color: black;
     padding: 10px;
-    font-size: 20px;
+    font-size: 18px;
     background-color: white;
 }
 
@@ -105,7 +108,7 @@
     color: black;
     padding: 10px;
     font-size: 20px;
-    background-color: rgb(237, 231, 220);
+    background-color: rgb(253, 247, 235);
 }
 
 .p2 h2{
@@ -125,14 +128,19 @@
     font-size: 15px;
     text-align: center;
     line-height: 30px;
-    background-color: rgb(237, 231, 220);
+    background-color:rgb(253, 247, 235);
+    margin-bottom: 50px;
+    height: 350%;
+    /* background: fixed; */
 }
-.s2 h3{
+.s2 h2{
     font-size:15px;
-    text-align:right;
+    text-align:center;
     line-height: 30px;
     font-weight:bold;
-    margin-right: 90px
+    margin-right: 90px;
+    font-size: 25px;
+    padding: 20px
 }
 .s2 p {
     width: 100%;
@@ -165,13 +173,13 @@
     line-height:30px;
     margin-left: 1px;
 }
-section {
-    background-color: rgb(237, 231, 220);
+/* section {
+    background-color: white;
     padding: -20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);} */
+
 .image1 {
     border: 1px solid black;
     border-radius: 10%;
@@ -179,7 +187,8 @@ section {
     width: 250px;
     margin-top: 30px;
     float: left;
-    margin-left: 150px;
+    margin-left: 170px;
+    /* object-fit: contain; */
 }
 .image2 {
     border: 1px solid black;
@@ -188,8 +197,9 @@ section {
     width : 350px;
     margin-top: 30px;
     float:none;
-    margin-top: 10%;
+    margin-top: 10px;
     margin-bottom: 20%;
+    
 }
 
 .image3 {
@@ -205,24 +215,33 @@ section {
     /* font-size: 30px; */
     text-align: center;
     line-height: 30px;
-    background-color: rgb(237, 231, 220)
+    background-color: rgb(253, 247, 235);
+    margin-bottom: 20px;
 }
-.s4 h2 {
-    color: black;
-    font-size: 30px
+.s4 h3 {
+    font-size:30px;
+    text-align:center;
+    line-height: 30px;
+    font-weight:bold;
+    padding: 40px;
 }
-main {
-    background-color: rgb(237, 231, 220);
-    padding: 20px;
-    margin: 20px;
+.content2 {
+    background-color: white;
+    /* padding: 20px; */
+    margin: -1%;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: -100px;
+    margin-top:10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 .s1 {
-    font-size: 15px;
+    font-size: 18px;
+    font-family:sans-serif;
     text-align: center;
     line-height: 30px;
-    background-color: rgb(237, 231, 220);
+    background-color: white;
+    margin-bottom:30px;
+    
 }
 .s1 h2 {
     font-size: 20px;
@@ -255,7 +274,7 @@ img {
     width: 20%;
 }
 section {
-    background-color: #f9f9f9;
+    background-color: rgb(253, 247, 235);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -265,7 +284,7 @@ section {
     display: flex;
     width: 100%;
     height: 125vh;
-    background-color: rgb(237, 231, 220)
+    background-color: rgb(253, 247, 235)
   }
 .flex-container h3{
     float: none;
@@ -278,25 +297,51 @@ section {
     line-height: 30px; 
     margin-bottom: 20px;
 }
+.flex-container p {
+    text-align:center;
+}
 .flex-container2 {
     display: flex;
     width: 100%;
     height: 125vh;
-    background-color: rgb(237, 231, 220);
+    background-color: rgb(253, 247, 235);
     padding: -20px;
     margin-top: -100px;
+
   }
   
 .flex-container2 > div {
     font-size: 15px;
     line-height: 30px; 
+    text-align: center;
+}
+.flex-container2 h3{
+    text-align: center;
+}
+.flex-container2 p{
+    text-align: center;
 }
 .flex-container3 {
     display: flex;
     width: 100%;
     height: 125vh;
-    background-color: rgb(237, 231, 220)
+    background-color: rgb(253, 247, 235);
+    text-align: center;
+    margin-right: 10px;
+    margin-left:30px
   }
+.flex-container3 > div {
+    padding: 20px;
+    margin: 70px;
+    font-size: 15px;
+    line-height: 30px; 
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    margin: 70px;
+    padding: 20px;
+    border: 2px solid black;
+
+}
 .flex-container3 h3 {
     text-align: center;
     margin-top: 10px;
@@ -304,13 +349,7 @@ section {
     float: none;
     
 }
-.flex-container3 > div {
-    padding: 20px;
-    margin: 70px;
-    font-size: 15px;
-    line-height: 30px; 
-    margin-bottom: 20px;
-}
+
 
 .flex-container4 {
     display: flex;
@@ -325,6 +364,10 @@ section {
     font-size: 15px;
     line-height: 30px; 
     margin-bottom: 20px;
+    background-color: antiquewhite;
+    margin: 70px;
+    padding: 20px;
+    border: 2px solid black;
 }
 .flex-container4 h3 {
     text-align: center;
@@ -333,15 +376,374 @@ section {
     float: none;
     
 }
-/* main, .kampot {
-    background-color: rgb(253, 247, 235);
-} */
+main {
+    background-color: white;
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+    /* text-align: center; */
+    color: black;
+    padding: 5vh 0 8vh 0;
+    height: fit-content;
+    font-family: sans-serif;  
+    margin-top: 650px;
+    line-height: 250%;
+    /* padding: 100px; */
 
-/* main{
-    font-size: 1.25em;
+}
+
+
+#SM {
+    width: 50px;
+    height: 50px;
+}
+
+input, textarea {
+    text-align: left;
+    border: 2px dotted orange;
+    margin: 3px;
+    width: 50vh;
+    height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
+textarea {
+    max-width: 50vh;
+    min-width: 50vh;
+    min-height: 100px;
+    height: 60px;
+}
+
+button[type="submit"] {
+    background-color: rgb(255, 123, 0);
+    width: 50vh;
+    height: fit-content;
+    color: aliceblue;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    /* margin-top: 0; */
+    /* text-align: center; */
+
+}
+button img{
+    position: relative;
+    top: 8px;
+}
+
+button[type="submit"]:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    
+}
+button{
+    width: 200px;
+    padding: 5px 0;
+    text-align:  center;
+    /* margin: 20px 10px; */
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(123, 98, 9);
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-inline: 20px;
+    margin-bottom:20px;
+    margin-top: -30px
+   
+}
+.link {
+    transform: translateY(-0.5%);
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    padding: 10%;
+    
+}
+.info{font-size: smaller;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25vh;
+    object-fit: contain;
+    margin: 0 auto;
+}
+main p img{
+    width: 30px;
+    height: 30px;
+    /* position: absolute; */
+}
+#paw{
+    position:absolute;
+    width: 30px;
+    height: 30px;
+     
+
+}
+#para{
+    text-align: center;
+    margin-top: 30px;
+}
+#SM{
+    width: 50px;
+    height: 50px;
+    line-height: 250%;
+}
+
+
+.CSum, .div2 {
+    background-color: rgb(253, 247, 235);
+    font-size: 15px;
+    line-height: 200%;
+    width: cover;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.div1 {
+    width: 33%;
+    padding: 50px;
+    
+}
+#img1 {
+    width: 70px;
+    height: 70px;
+
+}
+
+.h1 {
+    line-height: 120%;
+}
+
+hr {
+    border: 2px dashed orangered;
+    width: 70%;
+    margin-left: 0;
+}
+
+h3 {
+    color: orangered;
+}
+
+.SM1 {
+    display: flex;
+    gap:30px;
+    padding: 0;
+    
+}
+
+#SM1 {
+    width: 50px;
+    height: max-content;
+}
+
+#icon {
+    width: 35px;
+    /* height: max-content; */
+    margin-left:40px;
+
+}
+
+.info1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    width: 33vh;
+}
+.form {
+    text-align: center;
+}
+
+
+
+/* main {
+    background-color: white;
+    font-size: 15px;
     width: 100%;
     text-align: center;
     color: black;
     padding: 5vh 0 8vh 0;
     height: fit-content;
-} */
+    font-family: sans-serif;  
+    margin-top: 650px;
+    line-height: 250%;
+}
+/* main p {
+    text-align: center;
+    /* margin-left: auto; */
+/* .imag3 p {
+    margin-left: 50px;
+    text-align: center;
+
+}
+.imag3 img{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    
+}
+.button3 :hover span{
+    width: 100%;
+    border: none;
+}
+
+.p3{
+    width: 100%;
+    position: absolute;
+ 
+
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.button4{
+    width: 100%;
+    border: none;
+    align-items: center;
+}
+
+#SM {
+    width: 50px;
+    height: 50px;
+}
+
+input, textarea {
+    text-align: left;
+    border: 2px dotted orange;
+    margin: 3px;
+    width: 50vh;
+    height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
+textarea {
+    max-width: 50vh;
+    min-width: 50vh;
+    min-height: 100px;
+    height: 60px;
+}
+
+button[type="submit"] {
+    background-color: rgb(255, 123, 0);
+    width: 50vh;
+    height: fit-content;
+    color: aliceblue;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    margin-top: 0;
+
+}
+button img{
+    position: relative;
+    top: 8px;
+}
+
+button[type="submit"]:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    
+}
+
+.link {
+    transform: translateY(-0.5%);
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    padding: 10%;
+    
+}
+.info{font-size: smaller;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25vh;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+
+#SM{
+    width: 50px;
+    height: 50px;
+    line-height: 250%;
+}
+
+
+.CSum, .div2 {
+    background-color: rgb(253, 247, 235);
+    font-size: 15px;
+    line-height: 200%;
+    width: cover;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.div1 {
+    width: 33%;
+    padding: 50px;
+    
+}
+#img1 {
+    width: 70px;
+    height: 70px;
+
+}
+
+.h1 {
+    line-height: 120%;
+}
+
+hr {
+    border: 2px dashed orangered;
+    width: 70%;
+    margin-left: 0;
+}
+
+h3 {
+    color: orangered;
+}
+
+.SM1 {
+    display: flex;
+    gap:30px;
+    padding: 0;
+    
+}
+
+#SM1 {
+    width: 50px;
+    height: max-content;
+}
+
+#icon {
+    width: 35px;
+    height: max-content;
+
+}
+
+.info1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    width: 33vh;
+}  */
