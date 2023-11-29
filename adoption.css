@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.202), rgba(53, 53, 53, 0.447)),
+        url(stray\ dogs.webp);
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+}
+.navbar{
+    width: 85%;
+    margin-left: 20px;
+    margin-right: 2px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+    padding-left: 0px;
+    margin-left: 4px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    margin-right: 4px;
+    margin-inline-end: auto;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:rgb(127, 73, 73);
+    position: absolute;
+    left: 0;    
+    bottom: -10px;
+    transition:0.5s ;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.content h1{
+    font-family:sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+}
+.content h3{
+    text-align: center;
+    font-size:large;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.content button{
+    width: 200px;
+    padding: 15px 0;
+    text-align:  center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(123, 98, 9);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-inline: 20px;
+}
+
+.content span{
+    background: rgba(82, 65, 4, 0.81);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+    margin-top: 100px;
+}
+.content button:hover span{
+    width: 100%;
+    border: none;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+}
+.p1{
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+.p1 h2{
+    text-align: center;
+    color: orangered;
+    margin-top: 40px;
+}
+
+.p1 h5{
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 20;
+    margin-top: 30px;
+}
+.p1 button{
+    width: 200px;
+    padding: 15px 0;
+    height: 50px;
+    text-align:  center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid orangered;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-inline: 20px;
+}
+.p1 a{
+    text-decoration: none;
+    color: black;
+}
+.p2{
+    background-color: rgb(237, 231, 220);
+}
+.p2 h2{
+    padding: 20px;
+}
+.flex-container1 {
+    display: flex;
+    width: 100%;
+    height: 125vh;
+}
+.flex-container1 > div {
+    background-color: antiquewhite;
+    margin: 70px;
+    padding: 20px;
+    border: 2px solid black;
+}
+.image{
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.flex-container1 h6{
+    text-align: right;
+    color: rgb(104, 89, 89);
+}
+.flex-container1 h3{
+    text-align: left;
+    color: rgb(91, 74, 31);
+}
+.flex-container1 h4{
+    text-align: left;
+    font-size: medium;
+    color: orangered;
+}
+.flex-container1 p{
+    text-align: left;
+    font-size: small;
+}
+.flex-container1 button{
+    width: 100px;
+    text-align:  center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(123, 98, 9);
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.button2 button{
+    width: 200px;
+    padding: 15px 0;
+    height: 50px;
+    text-align:  center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid orangered;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-inline: 20px;
+}
