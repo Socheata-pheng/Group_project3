@@ -125,7 +125,7 @@
     font-size: 15px;
     text-align: center;
     line-height: 30px;
-    background-color: rgb(237, 231, 220)
+    background-color: rgb(237, 231, 220);
 }
 .s2 h3{
     font-size:15px;
@@ -167,7 +167,7 @@
 }
 section {
     background-color: rgb(237, 231, 220);
-    padding: 20px;
+    padding: -20px;
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -179,7 +179,7 @@ section {
     width: 250px;
     margin-top: 30px;
     float: left;
-    margin-left: 190px;
+    margin-left: 150px;
 }
 .image2 {
     border: 1px solid black;
@@ -317,6 +317,7 @@ section {
     width: 100%;
     height: 125vh;
     /* background-color: rgb(237, 231, 220) */
+    margin-top:-100px
   }
 .flex-container4 > div {
     padding: 20px;
@@ -336,11 +337,11 @@ section {
     background-color: rgb(253, 247, 235);
 } */
 
-main{
+/* main{
     font-size: 1.25em;
     width: 100%;
     text-align: center;
     color: black;
     padding: 5vh 0 8vh 0;
     height: fit-content;
-}
+} */
