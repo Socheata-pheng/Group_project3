@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0;
     /* transform: scale(1); */
@@ -72,6 +73,7 @@ body{
     padding: 10px;
     font-size: 20px;
 }
+
 .content h1{
     font-family:sans-serif;
     text-align: center;}
@@ -83,6 +85,7 @@ body{
     padding: 10px;
     font-size: 18px;
     background-color: white;
+    
 }
 
 
@@ -129,7 +132,7 @@ body{
     text-align: center;
     line-height: 30px;
     background-color:rgb(253, 247, 235);
-    margin-bottom: 50px;
+    margin-top: 70px;
     height: 350%;
     /* background: fixed; */
 }
@@ -184,7 +187,7 @@ body{
     border: 1px solid black;
     border-radius: 10%;
     height: 250px;
-    width: 250px;
+    width: 300px;
     margin-top: 30px;
     float: left;
     margin-left: 170px;
@@ -193,12 +196,13 @@ body{
 .image2 {
     border: 1px solid black;
     border-radius: 10%;
-    height: 250px;
+    height: 200px;
     width : 350px;
     margin-top: 30px;
     float:none;
     margin-top: 10px;
     margin-bottom: 20%;
+    margin-left: 10%;
     
 }
 
@@ -206,7 +210,7 @@ body{
     border: 1px solid black;
     border-radius: 10%;
     height: 250px;
-    width: 250px;
+    width: 270px;
     margin-top: 30px;
     float: right;
     margin-right:150px;
@@ -240,7 +244,9 @@ body{
     text-align: center;
     line-height: 30px;
     background-color: white;
-    margin-bottom:30px;
+    /* margin-bottom:100px; */
+    margin-top: 50px;
+    height: 50px;
     
 }
 .s1 h2 {
@@ -281,16 +287,19 @@ section {
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 .flex-container {
+    margin-top: 10px;
     display: flex;
     width: 100%;
-    height: 125vh;
+    height: 80vh;
     background-color: rgb(253, 247, 235)
+    
   }
 .flex-container h3{
     float: none;
 }
+
   
-.flex-container > div {
+.flex-container  div {
     padding: 20px;
     margin: 70px;
     font-size: 15px;
@@ -307,6 +316,7 @@ section {
     background-color: rgb(253, 247, 235);
     padding: -20px;
     margin-top: -100px;
+    height: 400px;
 
   }
   
@@ -324,11 +334,25 @@ section {
 .flex-container3 {
     display: flex;
     width: 100%;
-    height: 125vh;
+    height: 80vh;
     background-color: rgb(253, 247, 235);
     text-align: center;
     margin-right: 10px;
-    margin-left:30px
+    margin-left:30px;
+
+
+  }
+  .flex-container3 img{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    margin-top: 5px;
+  
+  }
+  .flex-container3 p{
+    text-align: center;
+    /* float: left; */
+    align-items: center;
   }
 .flex-container3 > div {
     padding: 20px;
@@ -343,20 +367,31 @@ section {
 
 }
 .flex-container3 h3 {
-    text-align: center;
+    text-align:justify;
     margin-top: 10px;
     margin-bottom: 50px;
-    float: none;
+    float: left;
     
 }
 
 
 .flex-container4 {
-    display: flex;
-    width: 100%;
-    height: 125vh;
-    /* background-color: rgb(237, 231, 220) */
-    margin-top:-100px
+        display: flex;
+        width: 100%;
+        height: 80vh;
+        background-color: rgb(253, 247, 235);
+        text-align: center;
+        margin-right: 10px;
+        margin-left:30px;
+    
+    
+      }
+  
+  .flex-container4 img{
+    width:  250px;
+    height: 300px;
+    align-items: center;
+    margin-top: 5px;
   }
 .flex-container4 > div {
     padding: 20px;
@@ -386,7 +421,7 @@ main {
     padding: 5vh 0 8vh 0;
     height: fit-content;
     font-family: sans-serif;  
-    margin-top: 650px;
+    margin-top: 100px;
     line-height: 250%;
     /* padding: 100px; */
 
@@ -563,187 +598,3 @@ h3 {
 .form {
     text-align: center;
 }
-
-
-
-/* main {
-    background-color: white;
-    font-size: 15px;
-    width: 100%;
-    text-align: center;
-    color: black;
-    padding: 5vh 0 8vh 0;
-    height: fit-content;
-    font-family: sans-serif;  
-    margin-top: 650px;
-    line-height: 250%;
-}
-/* main p {
-    text-align: center;
-    /* margin-left: auto; */
-/* .imag3 p {
-    margin-left: 50px;
-    text-align: center;
-
-}
-.imag3 img{
-    width: 30px;
-    height: 30px;
-    align-items: center;
-    
-}
-.button3 :hover span{
-    width: 100%;
-    border: none;
-}
-
-.p3{
-    width: 100%;
-    position: absolute;
- 
-
-    text-align: center;
-    color: black;
-    padding: 10px;
-    font-size: 20px;
-}
-
-.button4{
-    width: 100%;
-    border: none;
-    align-items: center;
-}
-
-#SM {
-    width: 50px;
-    height: 50px;
-}
-
-input, textarea {
-    text-align: left;
-    border: 2px dotted orange;
-    margin: 3px;
-    width: 50vh;
-    height: 30px;
-    font-size: 15px;
-    padding: 10px;
-    
-}
-
-textarea {
-    max-width: 50vh;
-    min-width: 50vh;
-    min-height: 100px;
-    height: 60px;
-}
-
-button[type="submit"] {
-    background-color: rgb(255, 123, 0);
-    width: 50vh;
-    height: fit-content;
-    color: aliceblue;
-    border: 1px solid orangered;
-    border-radius: 10px;
-    margin-top: 0;
-
-}
-button img{
-    position: relative;
-    top: 8px;
-}
-
-button[type="submit"]:hover {
-    background-color: white;
-    color: orangered;
-    border: 1px solid orangered;
-    
-}
-
-.link {
-    transform: translateY(-0.5%);
-    color: rgb(255, 255, 255);
-    font-size: 2em;
-    padding: 10%;
-    
-}
-.info{font-size: smaller;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 25vh;
-    object-fit: contain;
-    margin: 0 auto;
-}
-
-
-#SM{
-    width: 50px;
-    height: 50px;
-    line-height: 250%;
-}
-
-
-.CSum, .div2 {
-    background-color: rgb(253, 247, 235);
-    font-size: 15px;
-    line-height: 200%;
-    width: cover;
-    text-align: left;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    
-}
-.div1 {
-    width: 33%;
-    padding: 50px;
-    
-}
-#img1 {
-    width: 70px;
-    height: 70px;
-
-}
-
-.h1 {
-    line-height: 120%;
-}
-
-hr {
-    border: 2px dashed orangered;
-    width: 70%;
-    margin-left: 0;
-}
-
-h3 {
-    color: orangered;
-}
-
-.SM1 {
-    display: flex;
-    gap:30px;
-    padding: 0;
-    
-}
-
-#SM1 {
-    width: 50px;
-    height: max-content;
-}
-
-#icon {
-    width: 35px;
-    height: max-content;
-
-}
-
-.info1 {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    padding: 0;
-    width: 33vh;
-}  */
