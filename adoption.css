@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
+} 
+
 .banner{
         width: 100%;
         height: 100vh;
@@ -13,6 +14,7 @@
         background-repeat: no-repeat;
 }
 .navbar{
+    font-size: 18px;
     width: 85%;
     margin-left: 20px;
     margin-right: 2px;
@@ -21,11 +23,23 @@
     align-items: center;
     justify-content: space-between;
 }
+#credit{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding-right: 0 5px;
+    width: fit-content;
+    background-color: gray;
+    opacity: 60%;
+    position: relative;
+    top: 90px;
+}
 .logo{
-    width: 50px;
+    width: fit-content;
+    height: 50px;
     cursor: pointer;
     padding-left: 0px;
-    margin-left: 4px;
+    margin-left: 20px;
 }
 .navbar ul li{
     list-style: none;
@@ -76,7 +90,7 @@
     color: aliceblue;
     font-family: sans-serif;
 }
-.content button{
+button{
     width: 200px;
     padding: 15px 0;
     text-align:  center;
@@ -92,7 +106,7 @@
     margin-inline: 20px;
 }
 
-.content span{
+span{
     background: rgba(82, 65, 4, 0.81);
     height: 100%;
     width: 0;
@@ -104,14 +118,17 @@
     transition: 0.5s;
     margin-top: 100px;
 }
-.content button:hover span{
+
+button:hover span{
     width: 100%;
     border: none;
 }
-.content a{
+a{
     text-decoration: none;
     color: white;
 }
+
+
 .p1{
     width: 100%;
     position: absolute;
@@ -134,14 +151,15 @@
     font-weight: 20;
     margin-top: 30px;
 }
-.p1 button{
+
+.p1 button {
     width: 200px;
     padding: 15px 0;
     height: 50px;
-    text-align:  center;
+    text-align: center;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid orangered;
+    border: 2px solid rgb(220, 82, 32);
     background: transparent;
     color: black;
     cursor: pointer;
@@ -149,13 +167,37 @@
     overflow: hidden;
     margin-top: 50px;
     margin-inline: 20px;
+    /* transition: background 0.5s ease, color 0.5s ease;   */
 }
-.p1 a{
+
+.p1 span {
+    background: orangered;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s; /* Adjusted transition duration */
+}
+
+.p1 button:hover {
+    background: orangered;
+    color: white;
+}
+
+.p1 button:hover span {
+    width: 100%;
+}
+
+.p1 a {
     text-decoration: none;
     color: black;
 }
 .p2{
     background-color: rgb(237, 231, 220);
+    
 }
 .p2 h2{
     padding: 20px;
@@ -217,6 +259,158 @@
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    margin-top: 50px;
-    margin-inline: 20px;
+    margin: 50px 20px 50px;
 }
+main {
+    background-color: white;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 5vh 0 8vh 0;
+    height: fit-content;
+    font-family: sans-serif;  
+    margin-top: 50px;
+    line-height: 250%;
+    
+
+}
+
+#SM {
+    width: 50px;
+    height: 50px;
+}
+
+input, textarea {
+    text-align: left;
+    border: 2px dotted orange;
+    margin: 3px;
+    width: 50vh;
+    height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
+textarea {
+    max-width: 50vh;
+    min-width: 50vh;
+    min-height: 100px;
+    height: 60px;
+}
+
+button[type="submit"] {
+    background-color: rgb(255, 123, 0);
+    width: 50vh;
+    height: fit-content;
+    color: aliceblue;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    margin-top: 0;
+
+}
+button img{
+    position: relative;
+    top: 8px;
+}
+
+button[type="submit"]:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    
+}
+
+.link {
+    transform: translateY(-0.5%);
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    padding: 10%;
+    
+}
+.info{font-size: smaller;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25vh;
+    object-fit: contain;
+    margin: 0 auto;
+}
+main img{
+    width: 30px;
+    height: 30px;
+}
+#SM{
+    width: 50px;
+    height: 50px;
+    line-height: 250%;
+}
+
+
+.CSum, .div2 {
+    background-color: rgb(253, 247, 235);
+    font-size: 15px;
+    line-height: 200%;
+    /* width: cover; */
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.div1 {
+    width: 33%;
+    padding: 50px;
+    
+}
+#img1 {
+    width: 70px;
+    height: 70px;
+
+}
+
+.h1 {
+    line-height: 120%;
+}
+
+hr {
+    border: 2px dashed orangered;
+    width: 70%;
+    margin-left: 0;
+}
+
+h3 {
+    color: orangered;
+}
+
+.SM1 {
+    display: flex;
+    gap:30px;
+    padding: 0;
+    
+}
+
+#SM1 {
+    width: 50px;
+    height: max-content;
+}
+
+#icon {
+    width: 35px;
+    /* height: max-content; */
+
+}
+
+.info1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    width: 33vh;
+}
+
+
+
